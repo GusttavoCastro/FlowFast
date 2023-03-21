@@ -1,0 +1,154 @@
+ body {
+     background-color: #161414;
+     overflow-x: hidden;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ header {
+     position: relative;
+     text-align: center;
+     width: 100%;
+     bottom: 340px;
+ }
+
+ nav {
+     position: relative;
+     bottom: 670px;
+     height: 96px;
+     border-top: 1px solid #ddd4d478;
+ }
+
+ /* Left Options */
+
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     padding-top: 25px;
+     overflow: hidden;
+     top: 0;
+     width: 100%;
+ }
+
+ ul li {
+     float: left;
+ }
+
+ ul li a {
+     display: block;
+     padding: 14px 16px;
+     padding-left: 30px;
+     text-align: center;
+     text-decoration: none;
+     color: #DAD5D5;
+     font-size: 16px;
+     font-weight: bold;
+ }
+
+ ul li a:hover {
+     color: rgb(196, 178, 20);
+     opacity: 0.6;
+ }
+
+ ul li img {
+     position: relative;
+     display: block;
+     padding: 14px 8px;
+     padding-right: 30px;
+     left: 820px;
+     transition: 0.5s;
+ }
+
+ ul li img:hover {
+     transform: scale(1.1);
+     opacity: 0.6;
+ }
+
+ .img-banner {
+     position: absolute;
+     top: 240px;
+ }
+
+ #coluna4 {
+     position: relative;
+     left: 397px;
+     bottom: 855px;
+ }
+
+ #coluna2 {
+     position: relative;
+     right: 235px;
+ }
+
+ #coluna3 {
+     position: relative;
+     left: 634px;
+     bottom: 854px;
+ }
+
+ #title-1 {
+    position: relative;
+    top: 200px;
+    font-style: normal;
+    font-size: 30px;
+    /* identical to box height, or 50% */
+    padding: 30px;
+    letter-spacing: 0.24px;
+
+    color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    top: 150px;
+    padding: 30px;
+}
+
+.card {
+    width: 360px;
+    height: 480px;
+    border-radius: 15px;
+    margin: 10px;
+    background: #ffffff;
+}
+
+.card-img{
+   background-color: aqua;
+   height: 400px;
+   margin-bottom: 12px;
+   border-radius: 15px 15px 0 0;
+   background-size: cover;
+}
+
+.img-1{
+   background-image: url('https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2022/10/21/cxmox1rsl3m7zeanvart/brandon-semenuk-red-bull-rampage-2022-final');
+}
+
+.img-2{
+   background-image: url('https://www.mx1.com.br/storage/blog/header/UJDU_eli-tomac-supercross-san-diego-terceira-etapa@original.jpeg');
+}
+
+.img-3{
+   background-image: url('https://img.redbull.com/images/c_crop,x_1111,y_0,h_3000,w_3333/c_fill,w_860,h_782/q_auto,f_auto/redbullcom/2018/07/17/65873810-4744-4b16-a6b9-fd1758350630/enduro-collection');
+}
+
+.card h3,span{
+   padding-left: 12px;
+}
+
+.card h3{
+font-style: normal;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: 1px;
+text-transform: capitalize;
+}
+
+.card span{
+font-style: normal;
+font-size: 16px;
+line-height: 14px;
+letter-spacing: 1px;
+text-transform: capitalize;
+}

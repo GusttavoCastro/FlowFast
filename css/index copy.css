@@ -1,0 +1,272 @@
+ body {
+     background-color: #161414;
+     overflow-x: hidden;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ header {
+     position: relative;
+     text-align: center;
+     width: 100%;
+     bottom: 340px;
+ }
+
+ nav {
+     position: relative;
+     bottom: 670px;
+     height: 96px;
+     border-top: 1px solid #ddd4d478;
+ }
+
+ /* Left Options */
+
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     padding-top: 25px;
+     overflow: hidden;
+     top: 0;
+     width: 100%;
+ }
+
+ ul li {
+     float: left;
+ }
+
+ ul li a {
+     display: block;
+     padding: 14px 16px;
+     padding-left: 30px;
+     text-align: center;
+     text-decoration: none;
+     color: #DAD5D5;
+     font-size: 16px;
+     font-weight: bold;
+ }
+
+ ul li a:hover {
+     color: rgb(196, 178, 20);
+     opacity: 0.6;
+ }
+
+ ul li img {
+     position: relative;
+     display: block;
+     padding: 14px 8px;
+     padding-right: 30px;
+     left: 820px;
+     transition: 0.5s;
+ }
+
+ ul li img:hover {
+     transform: scale(1.1);
+     opacity: 0.6;
+ }
+
+ .img-banner {
+     position: absolute;
+     top: 240px;
+ }
+
+ #coluna4 {
+     position: relative;
+     left: 397px;
+     bottom: 855px;
+ }
+
+ #coluna2 {
+     position: relative;
+     right: 235px;
+ }
+
+ #coluna3 {
+     position: relative;
+     left: 634px;
+     bottom: 854px;
+ }
+
+ .titles {
+     position: relative;
+     top: 200px;
+     padding-left: 40px;
+     padding-top: 20px;
+     width: 100%;
+ }
+
+ #title-1 {
+     position: absolute;
+     font-style: normal;
+     font-size: 30px;
+     letter-spacing: 0.24px;
+
+     color: #FFFFFF;
+ }
+
+ #see-all {
+     position: absolute;
+     top: 60px;
+     right: 100px;
+     text-align: right;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 15px;
+     letter-spacing: 0.24px;
+     text-decoration-line: underline;
+
+     color: #D69A27;
+ }
+
+ .container {
+     display: flex;
+     position: relative;
+     top: 270px;
+     padding: 30px;
+ }
+
+ .card {
+     width: 360px;
+     height: 480px;
+     border-radius: 15px;
+     margin: 12px;
+     background: #ffffff;
+ }
+
+ .card-img {
+     background-color: aqua;
+     height: 400px;
+     margin-bottom: 12px;
+     border-radius: 15px 15px 0 0;
+     background-size: cover;
+     background-position: center;
+ }
+
+ .img-1 {
+     background-image: url('https://img.redbull.com/images/c_crop,w_2560,h_1280,x_0,y_154,f_auto,q_auto/c_scale,w_1200/redbullcom/2022/10/21/cxmox1rsl3m7zeanvart/brandon-semenuk-red-bull-rampage-2022-final');
+ }
+
+ .img-2 {
+     background-image: url('https://www.mx1.com.br/storage/blog/header/UJDU_eli-tomac-supercross-san-diego-terceira-etapa@original.jpeg');
+ }
+
+ .img-3 {
+     background-image: url('https://www.tassietrails.org/images/Enduro_World_Series.jpg');
+ }
+
+ .img-4 {
+     background-image: url('https://static.wixstatic.com/media/035c57_60db9220b83c41f3a9174603e5d40664~mv2.jpg/v1/fit/w_1024,h_683,al_c,q_80,enc_auto/file.jpg');
+ }
+
+ .card h3,
+ span {
+     padding-left: 12px;
+ }
+
+ .card h3 {
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 14px;
+     letter-spacing: 1px;
+     text-transform: capitalize;
+     margin-bottom: 12px;
+ }
+
+ .card span {
+     font-style: normal;
+     font-size: 14px;
+     line-height: 14px;
+     letter-spacing: 1px;
+     text-transform: capitalize;
+ }
+
+ /* CARDS 02 */
+ .titles2 {
+     position: relative;
+     top: 300px;
+     padding-left: 40px;
+     padding-top: 20px;
+     width: 100%;
+ }
+
+ #title-2 {
+     position: absolute;
+     font-style: normal;
+     font-size: 30px;
+     letter-spacing: 0.24px;
+
+     color: #FFFFFF;
+ }
+
+ #see-all2 {
+     position: absolute;
+     top: 60px;
+     right: 100px;
+     text-align: right;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 15px;
+     letter-spacing: 0.24px;
+     text-decoration-line: underline;
+
+     color: #D69A27;
+ }
+
+ /* CARDS */
+ .container2 {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     position: relative;
+     top: 370px;
+     padding-right: 30px;
+     padding-left: 30px;
+     text-align: center;
+ }
+
+ .card2 {
+     width: 450px;
+     height: 300px;
+     border-radius: 15px;
+     margin: 12px;
+     background: #a5e90783;
+     background-size: cover;
+     background-position: center;
+ }
+
+ .card2 h3 {
+     font-style: normal;
+     font-weight: 700;
+     font-size: 25px;
+     line-height: 15px;
+     letter-spacing: 0.24px;
+     padding: 115px;
+     color: #FFFFFF;
+
+ }
+
+ .img-5 {
+     background-image: url('https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2021/2/22/zqpp5f0ep3g2cxnbfwdb/uci-world-cup-maribor-hero-art');
+     /* filter: blur(1px); */
+ }
+
+ .img-6 {
+     background-image: url('https://www.motonline.com.br/noticia/wp-content/uploads/2022/03/JetroSalazar_brasileirodemotocross_7etapa_creditoidariocafe_mundopress_8811-1024x682-1.jpg');
+ }
+
+ .img-7 {
+     background-image: url('https://motos.espirituracer.com/archivos/2017/11/ducati-multistrada-v4-s-ambience-59-uc207346-high.jpg');
+ }
+
+ .img-8 {
+     background-image: url('https://mbaction.com/wp-content/uploads/2021/07/Screen-Shot-2021-07-08-at-11.00.05-AM.png');
+ }
+
+ .img-9 {
+     background-image: url('https://enduro21.com/images/2021/march-2021/portuguese-hard-enduro/phes1-2021.jpeg');
+ }
+
+ .img-10 {
+     background-image: url('https://www.mtbpro.es/sites/default/files/una_e-bike_como_unica_bici_6.jpg');
+ }
