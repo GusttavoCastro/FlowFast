@@ -46,16 +46,15 @@
  }
 
  ul li a:hover {
-     color: rgb(196, 178, 20);
+     color: rgb(255, 230, 0);
      opacity: 0.6;
+     transition: 0.2s;
  }
 
  ul li img {
      position: relative;
-     display: block;
-     padding: 14px 8px;
-     padding-right: 30px;
-     left: 820px;
+     left: 790px;
+     right: 0px;
      transition: 0.5s;
  }
 
@@ -69,12 +68,6 @@
      top: 240px;
  }
 
- #coluna4 {
-     position: relative;
-     left: 397px;
-     bottom: 855px;
- }
-
  #coluna2 {
      position: relative;
      right: 235px;
@@ -86,15 +79,47 @@
      bottom: 854px;
  }
 
+ #coluna4 {
+    position: relative;
+    left: 397px;
+    bottom: 855px;
+}
+
+ #coluna1:hover{
+    transform: scale(1.0);
+    opacity: 0.6;
+    transition: 0.2s;
+ }
+
+ #coluna2:hover{
+    transform: scale(1.0);
+    opacity: 0.6;
+    transition: 0.2s;
+ }
+
+ #coluna3:hover{
+    transform: scale(1.0);
+    opacity: 0.6;
+    transition: 0.2s;
+ }
+
+ #coluna4:hover{
+    transform: scale(1.0);
+    opacity: 0.6;
+    transition: 0.2s;
+ }
+
+ /* CARDS DESTAQUES */
  .titles {
      position: relative;
      top: 200px;
      padding-left: 40px;
      padding-top: 20px;
+     padding-bottom: 64px;
      width: 100%;
  }
 
- #title-1 {
+ .titles h1 {
      position: absolute;
      font-style: normal;
      font-size: 30px;
@@ -103,7 +128,7 @@
      color: #FFFFFF;
  }
 
- #see-all {
+ .titles a {
      position: absolute;
      top: 60px;
      right: 100px;
@@ -118,19 +143,38 @@
      color: #D69A27;
  }
 
+ .titles a:hover {
+     color: #D69A27;
+     opacity: 0.6;
+     transition: 0.2s;
+ }
+
  .container {
      display: flex;
      position: relative;
-     top: 270px;
-     padding: 30px;
+     top: 220px;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-bottom: 150px;
+ }
+
+ .container a {
+     text-decoration: none;
+     color: #161414;
  }
 
  .card {
-     width: 360px;
+     width: 335px;
      height: 480px;
      border-radius: 15px;
      margin: 12px;
      background: #ffffff;
+ }
+
+ .card:hover{
+    transform: scale(1.0);
+    opacity: 0.6;
+    transition: 0.2s;
  }
 
  .card-img {
@@ -181,16 +225,16 @@
      text-transform: capitalize;
  }
 
- /* CARDS 02 */
+ /* CARDS ESPORTES */
  .titles2 {
      position: relative;
-     top: 300px;
+     top: 170px;
      padding-left: 40px;
-     padding-top: 20px;
+     padding-bottom: 64px;
      width: 100%;
  }
 
- #title-2 {
+ .titles2 h1 {
      position: absolute;
      font-style: normal;
      font-size: 30px;
@@ -199,9 +243,9 @@
      color: #FFFFFF;
  }
 
- #see-all2 {
+ .titles2 a {
      position: absolute;
-     top: 60px;
+     top: 40px;
      right: 100px;
      text-align: right;
      font-style: normal;
@@ -214,15 +258,26 @@
      color: #D69A27;
  }
 
- /* CARDS */
+ .titles2 a:hover {
+     color: #D69A27;
+     opacity: 0.6;
+     transition: 0.2s;
+ }
+
  .container2 {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      position: relative;
-     top: 370px;
+     top: 180px;
      padding-right: 30px;
      padding-left: 30px;
+     padding-bottom: 150px;
      text-align: center;
+ }
+
+ .container2 a {
+     text-decoration: none;
+     color: #ffffff;
  }
 
  .card2 {
@@ -235,13 +290,19 @@
      background-position: center;
  }
 
+ .card2:hover{
+    transform: scale(1.0);
+    opacity: 0.6;
+    transition: 0.2s;
+ }
+
  .card2 h3 {
      font-style: normal;
      font-weight: 700;
      font-size: 25px;
      line-height: 15px;
      letter-spacing: 0.24px;
-     padding: 115px;
+     padding-top: 140px;
      color: #FFFFFF;
 
  }
@@ -269,4 +330,421 @@
 
  .img-10 {
      background-image: url('https://www.mtbpro.es/sites/default/files/una_e-bike_como_unica_bici_6.jpg');
+ }
+
+ /* CARDS GRUPOS */
+ .titles3 {
+     position: relative;
+     top: 180px;
+     padding-left: 40px;
+     padding-bottom: 40px;
+     width: 100%;
+ }
+
+ .titles3 h1 {
+     position: absolute;
+     font-style: normal;
+     font-size: 30px;
+     letter-spacing: 0.24px;
+
+     color: #FFFFFF;
+ }
+
+ .titles3 a {
+     position: absolute;
+     top: 40px;
+     right: 100px;
+     text-align: right;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 15px;
+     letter-spacing: 0.24px;
+     text-decoration-line: underline;
+
+     color: #D69A27;
+ }
+
+ .titles3 a:hover {
+     color: #D69A27;
+     opacity: 0.6;
+     transition: 0.2s;
+ }
+
+ .container3 {
+     display: flex;
+     position: relative;
+     top: 220px;
+     padding: 30px;
+     padding-bottom: 150px;
+ }
+
+ .container3 a {
+     text-decoration: none;
+     color: #ffffff;
+ }
+
+ .card3 {
+     width: 245px;
+     height: 350.6px;
+     border-radius: 15px;
+     margin: 20px;
+     background: #373434;
+ }
+
+ .card3 h3,
+ p {
+     color: #ffffff;
+     padding-left: 23px;
+ }
+
+ .card3 h3 {
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 15px;
+     margin-bottom: 30px;
+ }
+
+ .card3 p {
+     font-style: normal;
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 15px;
+     letter-spacing: 0.24px;
+     margin-bottom: 30px;
+ }
+
+ .profile-img {
+     width: 100px;
+     height: 100px;
+     margin-left: 23px;
+     margin-top: 23px;
+     margin-bottom: 30px;
+
+     border-radius: 100px;
+     background-size: cover;
+     background-position: center;
+     background-color: aqua;
+ }
+
+ .eclipse-1 {
+     background-image: url('/img/Profile-group.jpg');
+ }
+
+ .eclipse-2 {
+     background-image: url('https://i2.wp.com/motoraid.com.br/wp-content/uploads/2023/01/hard_enduro_european_challenge_logo.jpeg?fit=1200%2C800&ssl=1');
+ }
+
+ .eclipse-3 {
+     background-image: url('https://img.freepik.com/vetores-premium/design-de-logotipo-de-mascote-de-aventura-moto-cross-trails_1594-300.jpg?w=360');
+ }
+
+ .eclipse-4 {
+     background-image: url('https://pbs.twimg.com/profile_images/908394348798124032/j6fAq1SX_400x400.jpg');
+ }
+
+ .eclipse-5 {
+     background-image: url('https://i.pinimg.com/originals/2e/d1/15/2ed115c13891fd913afe5d2f32dfa85f.jpg');
+ }
+
+ #vector {
+     margin-left: 23px;
+     margin-bottom: 20px;
+ }
+
+ #group-btn {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     width: 198px;
+     height: 51px;
+     margin-left: 23px;
+     margin-bottom: 17px;
+
+     background: #DEA617;
+     border-radius: 10px;
+ }
+
+ #group-btn:hover{
+    color: rgb(255, 230, 0);
+    opacity: 0.6;
+    transition: 0.2s;
+ }
+
+ .card3 a {
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 15px;
+     letter-spacing: 0.24px;
+     text-decoration: none;
+     color: #FFFFFF;
+ }
+
+ /* EVENTOS */
+ .titles4 {
+     position: relative;
+     top: 200px;
+     padding-left: 40px;
+     padding-top: 20px;
+     padding-bottom: 94px;
+     width: 100%;
+ }
+
+ .titles4 h1 {
+     position: absolute;
+     font-style: normal;
+     font-size: 30px;
+     letter-spacing: 0.24px;
+
+     color: #FFFFFF;
+ }
+
+ .titles4 a {
+     position: absolute;
+     top: 60px;
+     right: 100px;
+     text-align: right;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 15px;
+     letter-spacing: 0.24px;
+     text-decoration-line: underline;
+
+     color: #D69A27;
+ }
+
+ .titles4 a:hover {
+     color: rgb(255, 230, 0);
+     opacity: 0.6;
+     transition: 0.2s;
+ }
+
+ .container4 {
+     display: flex;
+     position: relative;
+     top: 220px;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-bottom: 150px;
+ }
+
+ .container4 a {
+     text-decoration: none;
+     color: #161414;
+ }
+
+ .card4 {
+     width: 412px;
+     height: 432px;
+     border-radius: 15px;
+     margin: 12px;
+     background: #373434;
+ }
+ 
+ .card4:hover{
+    transform: scale(1.0);
+    opacity: 0.6;
+    transition: 0.2s;
+ }
+
+ .card-img4 {
+     background-color: aqua;
+     height: 250px;
+     margin-bottom: 8px;
+     border-radius: 15px 15px 0 0;
+     background-size: cover;
+     background-position: center;
+ }
+
+ .event-1 {
+     background-image: url('https://img.redbull.com/images/c_crop,x_0,y_0,h_2989,w_4484/c_fill,w_720,h_462/q_auto,f_auto/redbullcom/2023/2/7/ihwbbgzvdblgqaox0n04/mtbgonzalo-gajdosech-redbullvalparaisocerroabajo');
+ }
+
+ .event-2 {
+     background-image: url('https://www.showradical.com/wp-content/uploads/2023/01/IMG_9458-1024x683.jpg');
+ }
+
+ .event-3 {
+     background-image: url('https://marvel-b1-cdn.bc0a.com/f00000000104050/www.monsterenergy.com/media/uploads_image/2022/05/23/1600/800/990599a0d903e3b818726e39bc049862.jpg?mod=v1_73ee4744f156880b631cdf985d53758a');
+ }
+
+ .card4 h3 {
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 18px;
+     padding-left: 12px;
+     color: #FFFFFF;
+ }
+
+ .card4 span {
+     position: relative;
+     bottom: 5px;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 18px;
+     color: #FFFFFF;
+ }
+
+ #location {
+     margin-top: 12px;
+     margin-left: 12px;
+ }
+
+ #data {
+     margin-top: 12px;
+     margin-left: 12px;
+ }
+
+ hr {
+     border: 0;
+     border-top: 1px solid #ffffff7e;
+ }
+
+ .card4 h4 {
+     position: absolute;
+     font-style: normal;
+     margin-left: 12px;
+     margin-top: 10px;
+     font-weight: 700;
+     font-size: 12px;
+     line-height: 14px;
+
+     color: #B3A8A8;
+ }
+
+ /* FOOTER */
+ footer {
+     /* FOOTER POSITION */
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     align-items: center;
+     padding: 0px;
+     position: absolute;
+     width: 1512px;
+     height: 349px;
+     left: calc(50% - 1512px/2);
+ }
+
+ #container-footer {
+     /* COLOR AND SIZE */
+     width: 1512px;
+     height: 223px;
+
+     background: #131618;
+
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+ }
+
+ .part-1 {
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: flex-start;
+     gap: 64px;
+
+     position: absolute;
+     left: 51px;
+ }
+
+ .part-1 h2 {
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 21px;
+
+     display: flex;
+     align-items: center;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+
+     color: #F1F1F1;
+ }
+
+ .part-1 a {
+     text-decoration: none;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 15px;
+     width: 200px;
+
+     /* identical to box height, or 94% */
+     display: flex;
+     align-items: center;
+     letter-spacing: 0.24px;
+
+     color: #F1F1F1;
+
+ }
+
+ .part-1 a:hover {
+     color: rgb(255, 230, 0);
+     opacity: 0.6;
+     transition: 0.2s;
+ }
+
+ .part-1 article {
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px 9px;
+     gap: 9px;
+     width: 136px;
+     height: 44px;
+
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+ }
+
+ #container-footer img {
+     position: absolute;
+     left: 1042px;
+     top: 190px;
+ }
+
+ /* PARTE DE BAIXO DO FOOTER */
+ .part-2 {
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     top: 220px;
+
+     width: 1512px;
+     height: 60px;
+
+     background: #000000;
+ }
+
+ .part-2 article {
+     display: flex;
+     flex-direction: row;
+     gap: 39px;
+
+     position: absolute;
+     left: 470px;
+     top: 20px;
+ }
+
+ .part-2 span {
+     font-style: normal;
+     font-weight: 100;
+     font-size: 10px;
+     line-height: 18px;
+
+     color: #F1F1F1;
  }
