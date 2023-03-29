@@ -1,0 +1,435 @@
+body {
+    background-color: #161414;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #D69A27;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(24, 24, 28);
+    /* color of the scroll thumb */
+    border-radius: 5px;
+    /* roundness of the scroll thumb */
+}
+
+header {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    top: 60px;
+}
+
+#logo {
+    font-family: 'FORMULA-A';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 14px;
+    /* identical to box height, or 29% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #D69A27;
+}
+
+nav {
+    position: relative;
+    top: 110px;
+    height: 96px;
+    border-top: 1px solid #ddd4d478;
+}
+
+/* Left Options */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    padding: 14px 16px;
+    padding-left: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #DAD5D5;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: rgb(255, 230, 0);
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+ul li img {
+    position: relative;
+    left: 790px;
+    right: 0px;
+    transition: 0.5s;
+}
+
+ul li img:hover {
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+
+/* MAIN */
+.container-profile {
+    box-sizing: border-box;
+    position: absolute;
+    width: 534px;
+    height: 616px;
+    left: 0px;
+    top: 283px;
+
+    /* stoke */
+    border-width: 1px 1px 0px 0px;
+    border-style: solid;
+    border-color: rgba(197, 173, 173, 0.23);
+    border-radius: 10px;
+}
+
+.container-profile article {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 177px;
+    top: 96px;
+    border-radius: 100px;
+}
+
+#profile-img {
+    background: url(/img/profile.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container-profile h2 {
+    position: absolute;
+    left: 170px;
+    top: 313px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+}
+
+.container-profile h4 {
+    position: absolute;
+    left: 150px;
+    top: 349px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 1px;
+
+    /* neutral */
+    color: rgba(174, 150, 150, 0.72);
+}
+
+#config {
+    display: flex;
+    top: 400px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-profile span {
+    position: relative;
+    font-weight: 400;
+    bottom: 2px;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    margin-left: 12px;
+    /* neutral */
+    color: rgba(174, 150, 150, 0.72);
+}
+
+.favoritos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 0px 0px 54px;
+    gap: 27px;
+
+    position: absolute;
+    width: 977px;
+    height: 127px;
+    left: 534px;
+    top: 301px;
+
+    /* stoke */
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: rgba(197, 173, 173, 0.23);
+}
+
+.favoritos h2 {
+    position: relative;
+    bottom: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.favoritos ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.favoritos ul li {
+    float: left;
+    position: relative;
+    bottom: 40px;
+    right: 25px;
+}
+
+.favoritos ul li a {
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(174, 150, 150, 0.72);
+    font-size: 16px;
+}
+
+.favoritos ul li a:hover {
+    color: rgb(255, 230, 0);
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+.favoritos ul li a:active {
+    color: rgb(255, 230, 0);
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+
+
+.esportes {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 42px;
+
+position: absolute;
+width: 578px;
+height: 396px;
+left: 579px;
+top: 450px;
+
+}
+
+.esportes a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cards {
+    width: 268px;
+    height: 396px;
+    border-radius: 15px;
+    margin: 0;
+    background: #a5e90783;
+    background-size: cover;
+    background-position: center;
+}
+
+.cards:hover{
+   transform: scale(1.0);
+   opacity: 0.6;
+   transition: 0.2s;
+}
+
+.cards h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 15px;
+    letter-spacing: 0.24px;
+    text-align: center;
+    padding-top: 150px;
+    color: #FFFFFF;
+
+}
+
+.cards img{
+    position: relative;
+    left: 230px;
+    top: 20px;
+}
+
+.img-1 {
+    background-image: url('https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2021/2/22/zqpp5f0ep3g2cxnbfwdb/uci-world-cup-maribor-hero-art');
+}
+
+.img-2 {
+    background-image: url('https://www.motonline.com.br/noticia/wp-content/uploads/2022/03/JetroSalazar_brasileirodemotocross_7etapa_creditoidariocafe_mundopress_8811-1024x682-1.jpg');
+}
+
+
+/* FOOTER */
+footer {
+    /* FOOTER POSITION */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    width: 1512px;
+    height: 349px;
+    left: calc(50% - 1512px/2);
+    top: 900px;
+}
+
+#container-footer {
+    /* COLOR AND SIZE */
+    width: 1512px;
+    height: 223px;
+
+    background: #131618;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.part-1 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 64px;
+
+    position: absolute;
+    left: 51px;
+}
+
+.part-1 h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #F1F1F1;
+}
+
+.part-1 a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    width: 200px;
+
+    /* identical to box height, or 94% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.24px;
+
+    color: #F1F1F1;
+
+}
+
+.part-1 a:hover {
+    color: rgb(255, 230, 0);
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+.part-1 article {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 9px;
+    gap: 9px;
+    width: 136px;
+    height: 44px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#container-footer img {
+    position: absolute;
+    left: 1042px;
+    top: 190px;
+}
+
+/* PARTE DE BAIXO DO FOOTER */
+.part-2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    top: 220px;
+
+    width: 1512px;
+    height: 60px;
+
+    background: #000000;
+}
+
+.part-2 article {
+    display: flex;
+    flex-direction: row;
+    gap: 39px;
+
+    position: absolute;
+    left: 470px;
+    top: 20px;
+}
+
+.part-2 span {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 10px;
+    line-height: 18px;
+
+    color: #F1F1F1;
+}
