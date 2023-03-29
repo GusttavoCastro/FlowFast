@@ -1,0 +1,387 @@
+body {
+    background-color: #161414;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #D69A27;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(24, 24, 28);
+    /* color of the scroll thumb */
+    border-radius: 5px;
+    /* roundness of the scroll thumb */
+}
+
+header {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    top: 60px;
+}
+
+#logo {
+    font-family: 'FORMULA-A';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 14px;
+    /* identical to box height, or 29% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #D69A27;
+}
+
+nav {
+    position: relative;
+    top: 110px;
+    height: 96px;
+    border-top: 1px solid #ddd4d478;
+}
+
+/* Left Options */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    padding: 14px 16px;
+    padding-left: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #DAD5D5;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: rgb(255, 230, 0);
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+ul li img {
+    position: relative;
+    left: 790px;
+    right: 0px;
+    transition: 0.5s;
+}
+
+ul li img:hover {
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+
+/* MAIN */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 52px;
+
+    position: absolute;
+    width: 1061px;
+    height: 1650.4px;
+    left: 225px;
+    top: 305px;
+}
+
+#container-cards {
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 826px;
+
+    width: 1041.5px;
+    height: 40px;
+}
+
+#filtrar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+}
+
+#filtrar h3 {
+    font-weight: 400;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+}
+
+#novo-grupo h3 {
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+}
+
+#novo-grupo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+}
+
+.container3 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.card3 {
+    width: 230px;
+    height: 350px;
+    border-radius: 15px;
+    margin: 20px;
+    background: #373434;
+}
+
+.card3 h3,
+p {
+    color: #ffffff;
+    padding-left: 23px;
+}
+
+.card3 h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    margin-bottom: 30px;
+}
+
+.card3 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.24px;
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    margin-left: 23px;
+    margin-top: 23px;
+    margin-bottom: 30px;
+
+    border-radius: 100px;
+    background-size: cover;
+    background-position: center;
+    background-color: aqua;
+}
+
+.eclipse-1 {
+    background-image: url('/img/add-img.jpg');
+}
+
+#vector {
+    margin-left: 23px;
+    margin-bottom: 20px;
+}
+
+#group-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 198px;
+    height: 51px;
+    margin-left: 16px;
+    margin-bottom: 17px;
+
+    background: #DEA617;
+    border-radius: 10px;
+}
+
+#group-btn:hover {
+    color: rgb(255, 230, 0);
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+.card3 a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 15px;
+    letter-spacing: 0.24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* FOOTER */
+footer {
+    /* FOOTER POSITION */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    width: 1512px;
+    height: 349px;
+    left: calc(50% - 1512px/2);
+    top: 1900px;
+}
+
+#container-footer {
+    /* COLOR AND SIZE */
+    width: 1512px;
+    height: 223px;
+
+    background: #131618;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.part-1 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 64px;
+
+    position: absolute;
+    left: 51px;
+}
+
+.part-1 h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #F1F1F1;
+}
+
+.part-1 a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    width: 200px;
+
+    /* identical to box height, or 94% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.24px;
+
+    color: #F1F1F1;
+
+}
+
+.part-1 a:hover {
+    color: rgb(255, 230, 0);
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+.part-1 article {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 9px;
+    gap: 9px;
+    width: 136px;
+    height: 44px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#container-footer img {
+    position: absolute;
+    left: 1042px;
+    top: 190px;
+}
+
+/* PARTE DE BAIXO DO FOOTER */
+.part-2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    top: 220px;
+
+    width: 1512px;
+    height: 60px;
+
+    background: #000000;
+}
+
+.part-2 article {
+    display: flex;
+    flex-direction: row;
+    gap: 39px;
+
+    position: absolute;
+    left: 470px;
+    top: 20px;
+}
+
+.part-2 span {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 10px;
+    line-height: 18px;
+
+    color: #F1F1F1;
+}
