@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/novo-grupo.css">
+    <title>Novo grupo</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul id="right-options">
+            <li><a href="/html/index.html">INICIO</a></li>
+            <li><a href="/html/destaques.html">DESTAQUES</a></li>
+            <li><a href="/html/grupos.html">GRUPOS</a></li>
+            <li><a href="/html/fotos.html">GALERIA DE FOTOS</a></li>
+
+
+            <section class="menu">
+                <li><a href="#"><img src="/img/noti.svg"></a>
+                    <ul>
+                        <li><a href="#">
+                                <section class="container-not">
+                                    <div id="img"></div>
+                                    <h2>A data do evento que você salvou esta chegando!</h2>
+                                </section>
+                            </a></li>
+
+                        <li><a href="#">
+                                <section class="container-not">
+                                    <div id="img2"></div>
+                                    <h2>A data do evento que você salvou esta chegando!</h2>
+                                </section>
+                            </a></li>
+
+                        <li><a href="#">
+                                <section class="container-not">
+                                    <div id="img3"></div>
+                                    <h2>A data do evento que você salvou esta chegando!</h2>
+                                </section>
+                            </a></li>
+
+                        <li><a href="#">
+                                <section class="container-not">
+                                    <div id="img4"></div>
+                                    <h2>A data do evento que você salvou esta chegando!</h2>
+                                </section>
+                            </a></li>
+                    </ul>
+                </li>
+            </section>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Criar novo grupo</h1>
+
+        <form>
+
+            <article>
+                <h3>Nome do grupo</h3>
+                <input type="text" name="fname" placeholder="Insira um nome para a grupo">
+            </article>
+
+            <article>
+                <h3>Descrição do grupo</h3>
+                <input type="text" name="fname" placeholder="Insira uma descrição para a grupo">
+            </article>
+
+            <section class="regiao">
+                <article id="cidade">
+                    <h3>Cidade</h3>
+                    <input type="text" name="fname">
+                </article>
+
+                <article id="estado">
+                    <h3>Estado</h3>
+                    <input type="text" name="fname">
+                </article>
+            </section>
+
+            <article id="checkbox">
+                <p>Sem região especifica</p>
+                <input type="checkbox" />
+            </article>
+
+            <section class="grupo-info">
+                <select name="categ" required>
+                    <option value="" disabled selected hidden>Escolha uma categoria</option>
+                    <option value="coffee">Downhill MTB</option>
+                    <option value="tea">Enduro MTB</option>
+                    <option value="milk">E-Enduro MTB</option>
+                    <option value="milk">Supercross MX</option>
+                    <option value="milk">Hard Enduro MX</option>
+                    <option value="milk">Moto Trial</option>
+                  </select>
+
+                <article id="numero-pessoas">
+                    <h3>Numero max de integrantes</h3>
+                    <input type="text" name="fname">
+                </article>
+            </section>
+
+            <section id="foto">
+                <article id="circulo"></article>
+                <label for="arquivo">Enviar arquivo</label>
+                <input type="file" name="arquivo" id="arquivo">
+            </section>
+
+            <button id="btn-criar" type="submit">Criar</button>
+
+        </form>
+
+    </main>
+
+
+    <footer>
+        <div id="container-footer">
+
+            <section class="part-1">
+                <article>
+                    <h2>SUPORTE</h2>
+                    <a href="">Contato</a>
+                </article>
+
+                <article>
+                    <h2>RECURSOS</h2>
+                    <a href="">Avisos de segurança</a>
+                </article>
+
+                <article>
+                    <h2>SOBRE</h2>
+                    <a href="">Nossa história</a>
+                </article>
+            </section>
+
+            <img src="/img/logo 1-svg.svg">
+
+            <section class="part-2">
+                <article>
+                    <span>©2023. FlowFast. Todos os Direitos Reservados.</span>
+                    <span>Designed by Gustavo de Castro Lazzaretti Porto. 2023. </span>
+                </article>
+            </section>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

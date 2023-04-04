@@ -21,35 +21,12 @@ body::-webkit-scrollbar-thumb {
     /* roundness of the scroll thumb */
 }
 
-header {
-    position: relative;
-    text-align: center;
-    width: 100%;
-    top: 60px;
-}
-
-#logo {
-    font-family: 'FORMULA-A';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 14px;
-    /* identical to box height, or 29% */
-    letter-spacing: 1px;
-    text-transform: uppercase;
-
-    color: #D69A27;
-}
-
 nav {
-    position: relative;
-    top: 110px;
+    top: 0;
     height: 96px;
-    border-top: 1px solid #ddd4d478;
 }
 
 /* Left Options */
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -69,7 +46,6 @@ ul li a {
     display: block;
     padding: 14px 16px;
     padding-left: 30px;
-    text-align: center;
     text-decoration: none;
     color: #DAD5D5;
     font-size: 16px;
@@ -82,23 +58,10 @@ ul li a:hover {
     transition: 0.2s;
 }
 
-#perfil {
-    position: relative;
-    left: 790px;
-    right: 0px;
-    transition: 0.5s;
-}
-
-#perfil:hover {
-    transform: scale(1.1);
-    opacity: 0.6;
-}
-
 .menu {
     position: relative;
-    left: 880px;
-    bottom: 45px;
     list-style: none;
+    float: right;
     font-size: 12px;
     margin: 0;
     padding-right: 30px;
@@ -221,165 +184,273 @@ ul li a:hover {
 }
 
 /* MAIN */
-.container {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 1060px;
-    height: 1300px;
-    left: 226px;
-    top: 281px;
-
-    /* stoke */
-    border: 1px solid rgba(197, 173, 173, 0.23);
-    border-radius: 10px;
-}
-
-#tarja {
-    box-sizing: border-box;
-
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 434px;
-    gap: 8px;
-
-    position: absolute;
-    width: 1060px;
-    height: 54px;
-    top: -1px;
-
-    /* primary */
-    background: #D69A27;
-    /* stoke */
-    border: 1px solid rgba(197, 173, 173, 0.23);
-    border-radius: 10px 10px 0px 0px;
-}
-
-#tarja h2 {
+h1 {
+    position: relative;
+    top: 150px;
+    text-align: center;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 35px;
     line-height: 14px;
-    /* identical to box height, or 70% */
     letter-spacing: 1px;
-    text-transform: uppercase;
 
     color: #FFFFFF;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
-.grid {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 44px;
-    top: 170px;
+form {
     position: absolute;
-    left: 19px;
-}
+    width: 1002px;
+    height: 850px;
+    left: 255px;
+    top: 380px;
 
-.grid a:hover {
-    background: #221f18;
-    opacity: 0.5;
-    border-radius: 15px;
-    transition: 0.2s;
-}
-
-.grid a {
-    text-decoration: none;
-    color: #161414;
-}
-
-.card {
-    display: flex;
-    flex-direction: row;
-    width: 988px;
-    height: 244px;
+    background: rgba(65, 60, 60, 0.26);
     border-radius: 15px;
 }
 
-.card-img {
-    background-color: aqua;
-    width: 388px;
-    height: 244px;
-    border-radius: 15px;
-    background-size: cover;
-    background-position: center;
-}
-
-.img-1 {
-    background-image: url('https://img.redbull.com/images/c_crop,w_1820,h_910,x_170,y_0,f_auto,q_auto/c_scale,w_1200/redbullcom/2022/1/26/fboslh2tludprzpecvfj/vca-2022');
-}
-
-.img-2 {
-    background-image: url('https://amasupercross.com/wp-content/uploads/2022/03/Pits_Kardy_SX22_A1_1444.jpg');
-}
-
-.img-3 {
-    background-image: url('https://offroadmoto.motosport.com.pt/wp-content/uploads/2020/07/964af6b6-56a8-4ad7-bdb6-536125fc4839-1024x680.jpeg');
-}
-
-.img-4 {
-    background-image: url('https://revistapro.com.br/uploads/images/2021/03/image_750x500_6048aa244a942.jpg');
-}
-
-#texts {
+form article {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    position: relative;
-    bottom: 15px;
-
-    width: 602px;
-    height: 113px;
-}
-
-#texts h3,
-p,
-span {
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 20px;
 }
 
-#texts h3 {
-    font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 1px;
-    line-height: 20px;
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-#texts p {
+article h3 {
+    display: flex;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
     letter-spacing: 1px;
 
     color: #FFFFFF;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
-#texts span {
-    position: relative;
-    top: 160px;
+/* PLACEHOLDER */
+input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 19px;
+    font-size: 16px;
+
+    width: 360px;
+
+    background: #D9D9D9;
+    border-radius: 15px;
+}
+
+input::placeholder {
     font-weight: 700;
     font-size: 16px;
-    line-height: 18px;
-    letter-spacing: 1px;
-    color: rgba(255, 255, 255, 0.36);
+
+    color: #C1A0A0;
 }
 
+.regiao {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#cidade input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+
+    width: 190px;
+
+    background: #D9D9D9;
+    border-radius: 15px;
+}
+
+#cidade input::placeholder {
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #C1A0A0;
+}
+
+#estado input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+
+    width: 102px;
+
+    background: #D9D9D9;
+    border-radius: 15px;
+}
+
+#estado input::placeholder {
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #C1A0A0;
+}
+
+.grupo-info {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.grupo-info select {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    width: 193px;
+    height: 56px;
+    color: #C1A0A0;
+
+    background: #D9D9D9;
+    border-radius: 15px;
+}
+
+.grupo-info option {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+
+    color: #C1A0A0;
+}
+
+#numero-pessoas {
+    position: relative;
+    bottom: 70px;
+}
+
+#numero-pessoas input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+
+    width: 56px;
+
+    background: #D9D9D9;
+    border-radius: 15px;
+}
+
+#numero-pessoas input::placeholder {
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #C1A0A0;
+}
+
+
+
+/* CHECKBOX */
+#checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    gap: 12px;
+    position: relative;
+    bottom: 20px;
+
+    width: 211px;
+    height: 21px;
+}
+
+#checkbox p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#checkbox input {
+    width: 21px;
+    height: 21px;
+}
+
+#foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 265px;
+    height: 317px;
+    left: 587px;
+    top: 81px;
+}
+
+#circulo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+
+    background: #D9D9D9;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    padding: 20px 10px;
+    width: 265px;
+    background-color: #DEA617;
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 15px;
+
+
+    color: #FFFFFF;
+}
+
+#btn-criar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 341px;
+    gap: 8px;
+
+    position: absolute;
+    width: 730px;
+    height: 51px;
+    left: 128px;
+    top: 700px;
+
+    background: #DEA617;
+    border-radius: 10px;
+}
+
+#btn-criar{
+font-weight: 700;
+font-size: 20px;
+line-height: 15px;
+
+letter-spacing: 0.24px;
+
+color: #FFFFFF;
+}
 
 /* FOOTER */
 footer {
@@ -393,7 +464,7 @@ footer {
     width: 1512px;
     height: 349px;
     left: calc(50% - 1512px/2);
-    top: 1550px;
+    top: 1200px;
 }
 
 #container-footer {

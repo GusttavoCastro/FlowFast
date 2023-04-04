@@ -248,31 +248,63 @@ ul li a:hover {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 826px;
+    gap: 770px;
 
-    width: 1041.5px;
+    width: 1050px;
     height: 40px;
 }
 
-#filtrar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 8px;
+/* MENU DROPDOWN */
+.menu-filtrar {
+    list-style: none;
+    float: left;
+    position: relative;
+    top: 220px;
+    right: 60px;
 }
 
-#filtrar h3 {
-    font-weight: 400;
-    font-size: 16px;
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 1px;
-
-    color: #FFFFFF;
+.menu-filtrar img{
+    float: right;
 }
+
+.menu-filtrar li {
+    position: relative;
+    float: left;
+}
+
+.menu-filtrar li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    width: 150px;
+}
+
+.menu-filtrar li a:hover {
+    color: #fff;
+}
+
+.menu-filtrar li ul {
+    position: absolute;
+    top: 27px;
+    left: 0;
+    background-color: #161414;
+    display: none;
+    height: 280px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+/* SUBMENU */
+.menu-filtrar li:hover ul,
+.menu-filtrar li.over ul {
+    display: block;
+}
+
+.menu-filtrar li ul li {
+    display: block;
+    width: 150px;
+}
+
 
 #novo-grupo h3 {
     font-weight: 400;
