@@ -316,13 +316,14 @@ ul li a:hover {
     color: #FFFFFF;
 }
 
-#novo-grupo {
+#novo-grupo a {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 8px;
     gap: 8px;
+    text-decoration: none;
 }
 
 .container3 a {
