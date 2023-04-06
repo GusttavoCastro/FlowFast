@@ -22,8 +22,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 nav {
+    position: absolute;
     top: 0;
     height: 96px;
+    background: #161414;
+    width: 100%;
+    z-index: 1;
 }
 
 /* Left Options */
@@ -58,133 +62,72 @@ ul li a:hover {
     transition: 0.2s;
 }
 
-.menu {
-    position: relative;
-    list-style: none;
-    float: right;
-    font-size: 12px;
-    margin: 0;
-    padding-right: 30px;
-}
 
-.menu li {
-    position: relative;
-    float: left;
-}
-
-.menu li a {
-    color: #333;
-    text-decoration: none;
-    padding: 5px 10px;
-    display: block;
-}
-
-.menu li a:hover {
-    color: #fff;
-    transform: scale(1.05);
-}
-
-/* SUBMENU */
-.menu li ul {
-    position: absolute;
-    top: 45px;
-    right: 0;
-    background-color: #2d2828;
-    border-radius: 10px;
-    display: none;
-    margin: 0;
-    padding-left: 15px;
-    width: 360px;
-    height: 420px;
-    z-index: 10;
-}
-
-.menu li:hover ul,
-.menu li.over ul {
-    display: block;
-}
-
-.menu li ul li {
-    display: block;
-}
-
-.container-not {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 9px 5px;
-    gap: 8px;
-
-    width: 290px;
-    height: 75px;
-
-    /* stoke */
-    border-width: 0px 0px 1px 0px;
-    border-style: solid;
-    border-color: rgba(197, 173, 173, 0.23);
-}
-
-#img {
-    position: absolute;
-    left: 0px;
-    width: 70px;
-    height: 70px;
-    background: url(https://i.ytimg.com/vi/mnEOywN-xGU/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLCa5v68WmD8_VNxZ7X32Wes6Rw8mw);
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-}
-
-#img2 {
-    position: absolute;
-    left: 0px;
-    width: 70px;
-    height: 70px;
-    background: url(https://www.yamaha-racing.com.br/wp-content/uploads/2023/03/Eli-Tomac-7-Arlington-Align-Media.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-}
-
-#img3 {
-    position: absolute;
-    left: 0px;
-    width: 70px;
-    height: 70px;
-    background: url(https://www.mx1.com.br/storage/blog/header/2LU6_mundial-de-hard-enduro-2021-wess-mx1@original.jpeg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-}
-
-#img4 {
-    position: absolute;
-    left: 0px;
-    width: 70px;
-    height: 70px;
-    background: url(https://img.redbull.com/images/c_crop,x_679,y_0,h_1467,w_1100/c_fill,w_400,h_540/q_auto:low,f_auto/redbullcom/2022/3/27/in5n3h7gyweektxjnf5z/uci-mtb-dh-world-cup-lourdes-jackson-goldstone);
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-}
-
-.container-not h2 {
-    position: absolute;
-    padding-left: 90px;
-    width: 230px;
-    height: 36px;
-    color: white;
-
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-
-    letter-spacing: 1px;
-}
 
 /* MAIN */
+.box-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
 
+    position: absolute;
+    top: 200px;
+    width: 897px;
+    height: 318px;
+    left: calc(50% - 897px/2 + 0.5px);
+    z-index: 1;
+}
+
+.box-txt h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.box-txt p {
+    width: 897px;
+    height: 250px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 156% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+}
+
+#img-sobre {
+    position: absolute;
+    right: 0px;
+    top: 410px;
+    z-index: 1;
+}
+
+
+
+#retangulo {
+    position: absolute;
+    width: 755px;
+    height: 775.83px;
+    left: 1050px;
+    top: 110px;
+
+    background: linear-gradient(180deg, rgba(74, 64, 19, 0.63) 0%, rgba(240, 196, 1, 0.59) 100%);
+    border-radius: 45.5737px;
+    transform: rotate(46.33deg);
+}
 
 /* FOOTER */
 footer {
@@ -192,7 +135,8 @@ footer {
     display: flex;
     height: 280px;
     position: absolute;
-    bottom: 0;
+    top: 810px;
+    z-index: 1;
     background: #131618;
 }
 
