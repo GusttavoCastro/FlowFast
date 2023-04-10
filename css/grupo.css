@@ -4,19 +4,27 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
-  }
-  
-  body::-webkit-scrollbar-track {
-    background: #D69A27;       /* color of the tracking area */
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: rgb(24, 24, 28);    /* color of the scroll thumb */
-    border-radius: 5px;       /* roundness of the scroll thumb */
-  }
+body,
+html {
+    height: 100%;
+}
 
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #D69A27;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(24, 24, 28);
+    /* color of the scroll thumb */
+    border-radius: 5px;
+    /* roundness of the scroll thumb */
+}
 
 
 nav {
@@ -25,8 +33,7 @@ nav {
     height: 96px;
 }
 
-/* Left Options */
-
+/* LEFT OPTIONS */
 ul {
     list-style-type: none;
     margin: 0;
@@ -198,19 +205,149 @@ ul li a:hover {
 }
 
 /* MAIN */
-main{
-    min-height: calc(100% - 50px); 
-    padding-bottom: 50px;
+main {
+    min-height: calc(100% - 280px);
+    padding-bottom: 280px;
 }
 
+.banner {
+    position: absolute;
+    width: 100%;
+    height: 405px;
+    left: 0;
+
+    background: url(https://images.unsplash.com/photo-1574904937426-89a94e79012c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=864&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner a {
+    position: absolute;
+    padding-right: 30px;
+    right: 0;
+    top: 20px;
+}
+
+.banner a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* IMG AND NAME OF GROUP */
+#img-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 44px;
+
+    position: absolute;
+    width: 315px;
+    height: 370px;
+    left: 599px;
+    top: 346px;
+    border: 1px solid #ffffff;
+}
+
+#img-group img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+
+    background: url(/img/Profile-group.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#img-group h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 15px;
+
+    letter-spacing: 0.24px;
+
+    color: #FFFFFF;
+}
+
+.container-esquerdo {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 107px;
+
+    position: absolute;
+    width: 903px;
+    height: 2153px;
+    left: 28px;
+    top: 966px;
+
+    /* stoke */
+    border-right: 1px solid rgba(197, 173, 173, 0.23);
+}
+
+#descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    width: 825px;
+    height: 210px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#descricao h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 14px;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+#descricao p {
+    width: 825px;
+    height: 176px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+}
+
+#posts-oficiais {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
 
 /* FOOTER */
 footer {
     /* FOOTER POSITION */
     display: flex;
     height: 280px;
+    top: 5000px;
     position: absolute;
-    bottom: 0;
+    width: 100%;
 }
 
 #container-footer {

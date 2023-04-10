@@ -2,6 +2,7 @@ body {
     background-color: #161414;
     overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
+    height: 1000px;
 }
 
 body::-webkit-scrollbar {
@@ -184,7 +185,110 @@ ul li a:hover {
 }
 
 /* MAIN */
+main {
+    margin-bottom: 40px;
+}
 
+.box-post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 18px;
+    isolation: isolate;
+
+    position: relative;
+    width: 763px;
+    height: 448px;
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    width: 222px;
+    height: 52px;
+}
+
+#info img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: url(/img/Profile-group.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#info article {
+    position: relative;
+    bottom: 10px;
+    width: 160px;
+    height: 41px;
+}
+
+#info h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    /* identical to box height, or 94% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.24px;
+
+    color: #FFFFFF;
+}
+
+#info span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+
+    color: #A68C8C;
+}
+
+#content p {
+    width: 763px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+}
+
+#content img {
+    width: 763px;
+    height: 336px;
+    background: url(https://images.unsplash.com/photo-1471506480208-91b3a4cc78be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YmlrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+#options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 15px;
+    gap: 20px;
+
+    position: absolute;
+    width: 99px;
+    height: 38px;
+    left: 664px;
+    top: 461px;
+
+
+}
 
 /* FOOTER */
 footer {
@@ -192,7 +296,7 @@ footer {
     display: flex;
     height: 280px;
     position: absolute;
-    bottom: 0;
+    top: 1000px;
     background: #131618;
 }
 
