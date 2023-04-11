@@ -266,6 +266,127 @@ input::placeholder {
     color: #DEA617;
 }
 
+/* BOX-2 */
+.box-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 127px;
+
+    position: absolute;
+    width: 366px;
+    height: 281px;
+    left: 0px;
+    top: 343px;
+}
+
+#butons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    width: 366px;
+    height: 51px;
+}
+
+#butons a {
+    text-decoration: none;
+}
+
+#butons a:hover{
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+#btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 51px;
+    gap: 8px;
+    cursor: pointer;
+    width: 173px;
+    height: 51px;
+
+    background: #DEA617;
+    border-radius: 10px;
+}
+
+#btn {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 15px;
+    letter-spacing: 0.24px;
+
+    color: #FFFFFF;
+}
+
+
+#login-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    width: 293px;
+    height: 103px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#login-options span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+
+    color: #FEFFFF;
+}
+
+hr {
+    width: 84px;
+    height: 0px;
+    border: 1px solid #CCC0C0;
+}
+
+#acesso-rapido {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 300px;
+    height: 18px;
+}
+
+#redes-sociais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    width: 150px;
+    height: 65px;
+}
+
+#redes-sociais a:hover{
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
 /* FOOTER */
 footer {
     /* FOOTER POSITION */
