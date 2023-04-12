@@ -2,6 +2,7 @@ body {
     background-color: #161414;
     overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
+    height: 900px;
 }
 
 body::-webkit-scrollbar {
@@ -25,32 +26,34 @@ body::-webkit-scrollbar-thumb {
 .lado-esquerdo {
     position: absolute;
     width: 500px;
-    height: 100%;
+    height: 900px;
     top: 0;
     left: 0;
     background: url(/img/fundo-cad-esq.jpg);
     background-size: cover;
     background-position: center;
     filter: blur(1px);
+    border: 5px solid #161414;
 }
 
 .lado-direito {
     position: absolute;
     width: 500px;
-    height: 100%;
+    height: 900px;
     top: 0;
     right: 0;
     background: url(/img/fundo-cad-dir.jpg);
     background-size: cover;
     background-position: center;
     filter: blur(1px);
+    border: 5px solid #161414;
 }
 
 /* FORM */
 #form-login {
     position: absolute;
-    width: 530px;
-    height: 100%;
+    width: 520px;
+    height: 900px;
     left: 50%;
     transform: translate(-50%);
     margin: 0 auto;
@@ -63,7 +66,7 @@ body::-webkit-scrollbar-thumb {
 .content {
     position: absolute;
     width: 366px;
-    height: 600px;
+    height: 750px;
     left: 50%;
     transform: translate(-50%);
     top: 5%;
@@ -72,24 +75,25 @@ body::-webkit-scrollbar-thumb {
 #box-1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 0px;
     gap: 20px;
 
     position: absolute;
     width: 366px;
-    height: 360px;
+    height: 530px;
     left: 50%;
     transform: translate(-50%);
     top: 0px;
-
 }
 
 #box-1 h1 {
     font-weight: 700;
     font-size: 35px;
     line-height: 14px;
+    position: absolute;
+    top: 0;
 
     display: flex;
     align-items: center;
@@ -98,11 +102,6 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase;
 
     color: #FFFFFF;
-
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 /* PLACEHOLDERS */
@@ -136,13 +135,14 @@ input::placeholder {
 }
 
 .box-placeholders {
+    position: absolute;
+    bottom: 130px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding: 0px;
     gap: 15px;
-
     width: 366px;
     height: 199px;
 }
@@ -153,7 +153,7 @@ input::placeholder {
     align-items: center;
     font-size: 16px;
 
-    width: 335px;
+    width: 333px;
 
     background: #D9D9D9;
     border-radius: 15px;
@@ -164,20 +164,6 @@ input::placeholder {
     font-size: 16px;
 
     color: #C1A0A0;
-}
-
-#placeholder a {
-    position: absolute;
-    padding-top: 10px;
-    padding-left: 5px;
-    text-decoration: none;
-
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 18px;
-    letter-spacing: 1px;
-
-    color: #DEA617;
 }
 
 /* BOX-2 */
@@ -200,8 +186,8 @@ input::placeholder {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0px;
-    gap: 20px;
+    padding-top: 30px;
+    gap: 10px;
 
     width: 366px;
     height: 51px;
@@ -301,7 +287,7 @@ form p {
     height: 36px;
     left: 50%;
     transform: translate(-50%);
-    top: 650px;
+    top: 820px;
 
     font-weight: 400;
     font-size: 12px;
@@ -313,48 +299,7 @@ form p {
     color: #FFFFFF;
 }
 
-#form-login p a{
+#form-login p a {
     text-decoration: none;
     color: #DEA617;
-}
-
-/* SPLASH SCREEN */
-.splash {
-    cursor: pointer;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    height: 100%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    transition: all ease-in-out 600ms;
-
-    background: url(/img/splash-screen.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.hidden {
-    transition: 0.5s;
-    display: none;
-}
-
-.splash-header {
-    position: relative;
-    top: 500px;
-    color: white;
-    font-family: consolas;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn {
-    /*   border : none; */
-    /*   padding : 10px; */
-    /*   position : fixed; */
-    z-index: -1;
-    left: 50%;
-    transform: translateX(-50%);
 }

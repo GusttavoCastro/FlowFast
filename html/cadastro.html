@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/splash-screen.css">
+    <link rel="stylesheet" href="/css/cadastro.css">
     <link rel="icon" type="image/png" href="/img/img-navegador.png" />
-    <title>Welcome</title>
+    <title>Cadastrar</title>
 </head>
 
 <body>
@@ -22,25 +22,34 @@
             <div class="content">
 
                 <section id="box-1">
-                    <h1>Acessar</h1>
+                    <h1>Cadastrar</h1>
                     <section class="box-placeholders">
                         <article id="placeholder">
-                            <h3>E-mail</h3>
-                            <input type="email" name="email" placeholder="Insira seu e-email">
+                            <h3>Nome</h3>
+                            <input type="name" name="name" placeholder="Insira seu nome">
                         </article>
 
                         <article id="placeholder">
-                            <h3>Senha</h3>
-                            <input type="password" name="senha" placeholder="Insira sua senha">
-                            <a href="/html/redefinir-senha01.html">Esqueci minha senha</a>
+                            <h3>E-mail</h3>
+                            <input type="email" name="email" placeholder="Insira seu e-mail">
+                        </article>
+
+                        <article id="placeholder">
+                            <h3>Crie uma senha</h3>
+                            <input type="password" name="senha" placeholder="Insira uma senha">
+                        </article>
+
+                        <article id="placeholder">
+                            <h3>Repita a senha</h3>
+                            <input type="password" name="senha" placeholder="Repita a senha">
                         </article>
                     </section>
                 </section>
 
                 <div class="box-2">
                     <section id="butons">
-                        <a href="/html/index.html"><button id="btn" type="submit">Acessar</button></a>
-                        <a href="/html/cadastro.html"><button id="btn" type="submit">Cadastrar</button></a>
+                        <a href="/html/splash-screen.html"><button id="btn" type="submit">Acessar</button></a>
+                        <a href="/html/index.html"><button id="btn" type="submit">Cadastrar</button></a>
                     </section>
         
                     <section id="login-options">
@@ -51,8 +60,8 @@
                         </article>
         
                         <article id="redes-sociais">
-                            <a href="/html/index.html"><img src="/img/btn-google.svg"></a>
-                            <a href="/html/index.html"><img src="/img/btn-facebook.svg"></a>
+                            <a href="#"><img src="/img/btn-google.svg"></a>
+                            <a href="#"><img src="/img/btn-facebook.svg"></a>
                         </article>
                     </section>
                 </div>
@@ -62,14 +71,7 @@
             <p>By signing up for FlowFast, you agree to the Terms of Service. View our <a href="#">Privacy Policy</a>.</p>
         </form>
 
-        <!-- Splash Screen code starts here  -->
-        <div class="splash">
-            <h1 class="splash-header">Clique para continuar</h1>
-        </div>
-        <!-- Splash Screen code ends here  -->
     </main>
-
-    <script type="text/javascript" src="/js/splash-screen.js"></script>
 
 </body>
 
