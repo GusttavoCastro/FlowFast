@@ -206,6 +206,9 @@ ul li a:hover {
 .img-banner {
     position: absolute;
     top: 240px;
+    width: 100%;
+    height: 860px;
+    cursor: pointer;
 }
 
 #coluna2 {
