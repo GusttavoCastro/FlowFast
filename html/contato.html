@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/novo-grupo.css">
-    <link rel="icon" type="image/png" href="/img/img-navegador.png"/>
-    <title>Novo grupo</title>
+    <link rel="stylesheet" href="/css/contato.css">
+    <link rel="icon" type="image/png" href="/img/img-navegador.png" />
+    <title>Fale conosco</title>
 </head>
 
 <body>
@@ -57,65 +57,36 @@
     </nav>
 
     <main>
-        <h1>Criar novo grupo</h1>
+        <img id="banner" src="/img/img-banner-contato.jpg">
+        <h1>Fale conosco</h1>
 
         <form>
-
-            <article>
-                <h3>Nome do grupo</h3>
-                <input type="text" name="fname" required placeholder="Insira um nome para a grupo">
-            </article>
-
-            <article>
-                <h3>Descrição do grupo</h3>
-                <input type="text" name="fname" required placeholder="Insira uma descrição para a grupo">
-            </article>
-
-            <section class="regiao">
-                <article id="cidade">
-                    <h3>Cidade</h3>
-                    <input type="text" required name="fname">
+            <div class="box">
+                <article id="email">
+                    <h3>Seu e-mail</h3>
+                    <input type="text" name="email" placeholder="Digite seu e-mail" required>
                 </article>
 
-                <article id="estado">
-                    <h3>Estado</h3>
-                    <input type="text" required name="fname">
-                </article>
-            </section>
+                <section class="drop-problema">
+                    <select name="problema" required>
+                        <option value="" disabled selected hidden>Selecione o problema</option>
+                        <option value="coffee">Downhill MTB</option>
+                        <option value="tea">Enduro MTB</option>
+                        <option value="milk">E-Enduro MTB</option>
+                        <option value="milk">Supercross MX</option>
+                        <option value="milk">Hard Enduro MX</option>
+                        <option value="milk">Moto Trial</option>
+                    </select>
+                </section>
 
-            <article id="checkbox">
-                <p>Sem região especifica</p>
-                <input required type="checkbox" />
-            </article>
+                    <article id="msg">
+                        <h3>Deixe sua mensagem</h3>
+                        <textarea placeholder="Escreva sua mensagem, dúvida ou feedback aqui" required></textarea>
+                    </article>
+            </div>
 
-            <section class="grupo-info">
-                <select name="categ" required>
-                    <option value="" disabled selected hidden>Escolha uma categoria</option>
-                    <option value="coffee">Downhill MTB</option>
-                    <option value="tea">Enduro MTB</option>
-                    <option value="milk">E-Enduro MTB</option>
-                    <option value="milk">Supercross MX</option>
-                    <option value="milk">Hard Enduro MX</option>
-                    <option value="milk">Moto Trial</option>
-                </select>
-
-                <article id="numero-pessoas">
-                    <h3>Numero max de integrantes</h3>
-                    <input type="text" required name="fname">
-                </article>
-            </section>
-
-            <label class="picture" for="picture__input" tabIndex="0">
-                <span class="picture__image"></span>
-            </label>
-
-            <input type="file" accept="image/jpeg" name="picture__input" id="picture__input" required>
-
-
-            <button id="btn-criar" type="submit">Criar</button>
-
+            <a href="#"><button>Enviar</button></a>
         </form>
-
     </main>
 
 
@@ -149,8 +120,6 @@
             </section>
         </div>
     </footer>
-
-    <script type="text/javascript" src="/js/novo-grupo.js"></script>
 
 </body>
 
