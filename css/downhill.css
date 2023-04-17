@@ -206,6 +206,7 @@ ul li a:hover {
     position: absolute;
     right: 200px;
     top: 280px;
+    font-family: 'Clinton';
 
     font-weight: 700;
     font-size: 64px;
@@ -253,9 +254,10 @@ ul li a:hover {
 #box-txt2 h1 {
     width: 825px;
     height: 70px;
+    font-family: 'Clinton';
     font-weight: 700;
     font-size: 30px;
-    line-height: 35px;
+    line-height: 40px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -295,6 +297,7 @@ ul li a:hover {
 }
 
 .box-eventos h1 {
+    font-family: 'Clinton';
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
@@ -339,6 +342,7 @@ ul li a:hover {
 }
 
 #prova-dh h1 {
+    font-family: 'Clinton';
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
@@ -383,6 +387,7 @@ ul li a:hover {
 }
 
 .cards-container h1 {
+    font-family: 'Clinton';
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
@@ -402,7 +407,6 @@ ul li a:hover {
     padding: 0;
     width: 1372px;
     height: 1770px;
-    border: 1px solid red;
 }
 
 #cards iframe {
@@ -437,6 +441,7 @@ footer {
 }
 
 .part-1 h2 {
+    font-family: 'Clinton';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
