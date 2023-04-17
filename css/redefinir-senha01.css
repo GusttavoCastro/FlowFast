@@ -4,6 +4,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1{
+    font-family: 'Clinton';
+}
+
 body::-webkit-scrollbar {
     width: 12px;
     /* width of the entire scrollbar */
@@ -79,7 +83,7 @@ body::-webkit-scrollbar-thumb {
 
 #box h1 {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 14px;
 
     display: flex;

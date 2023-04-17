@@ -87,7 +87,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #box-1 h1 {
-    font-weight: 700;
+    font-family: 'Clinton';
     font-size: 35px;
     line-height: 14px;
 
@@ -107,8 +107,8 @@ body::-webkit-scrollbar-thumb {
 
 /* PLACEHOLDERS */
 article h3 {
+    font-family: 'Clinton';
     display: flex;
-    font-weight: 400;
     font-size: 15px;
     line-height: 18px;
     letter-spacing: 1px;

@@ -5,6 +5,12 @@ body {
     height: 900px;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Clinton';
+}
+
 body::-webkit-scrollbar {
     width: 12px;
     /* width of the entire scrollbar */

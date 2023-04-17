@@ -4,6 +4,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Clinton';
+}
+
 body::-webkit-scrollbar {
     width: 12px;
     /* width of the entire scrollbar */
@@ -199,7 +205,7 @@ ul li a:hover {
 
 #title h2 {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 40px;
     line-height: 15px;
     letter-spacing: 0.24px;
 
@@ -320,6 +326,7 @@ ul li a:hover {
 }
 
 #recomendados h2 {
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 30px;
     line-height: 15px;
