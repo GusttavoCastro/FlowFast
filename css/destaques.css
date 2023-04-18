@@ -288,14 +288,12 @@ ul li a:hover {
     gap: 44px;
     top: 170px;
     position: absolute;
-    left: 19px;
+    left: 40px;
 }
 
 .grid a:hover {
-    background: #221f18;
-    opacity: 0.5;
-    border-radius: 15px;
     transition: 0.2s;
+    transform: scale(1.05);
 }
 
 .grid a {

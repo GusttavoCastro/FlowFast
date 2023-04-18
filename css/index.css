@@ -321,9 +321,8 @@ ul li a:hover {
 }
 
 .card:hover{
-   transform: scale(1.0);
-   opacity: 0.6;
-   transition: 0.2s;
+    transition: 0.2s;
+    transform: scale(1.05);
 }
 
 .card-img {
@@ -440,9 +439,8 @@ span {
 }
 
 .card2:hover{
-   transform: scale(1.0);
-   opacity: 0.6;
-   transition: 0.2s;
+    transition: 0.2s;
+    transform: scale(1.05);
 }
 
 .card2 h3 {
@@ -674,9 +672,8 @@ p {
 }
 
 .card4:hover{
-   transform: scale(1.0);
-   opacity: 0.6;
-   transition: 0.2s;
+    transition: 0.2s;
+    transform: scale(1.05);
 }
 
 .card-img4 {

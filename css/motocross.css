@@ -320,6 +320,11 @@ ul li a:hover {
     border-radius: 15px;
 }
 
+iframe:hover{
+    transition: 0.2s;
+    transform: scale(1.05);
+}
+
 /* MODALIDADES */
 .modalidades {
     display: flex;

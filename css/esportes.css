@@ -265,9 +265,8 @@ main {
 }
 
 .card-moto:hover {
-    transform: scale(1.0);
-    opacity: 0.6;
     transition: 0.2s;
+    transform: scale(1.05);
 }
 
 .card-moto h3 {
@@ -347,9 +346,8 @@ main {
 }
 
 .card-bike:hover {
-    transform: scale(1.0);
-    opacity: 0.6;
     transition: 0.2s;
+    transform: scale(1.05);
 }
 
 .card-bike h3 {

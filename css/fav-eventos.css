@@ -385,9 +385,8 @@ top: 450px;
 }
 
 .cards:hover{
-   transform: scale(1.0);
-   opacity: 0.6;
-   transition: 0.2s;
+    transition: 0.2s;
+    transform: scale(1.05);
 }
 
 .cards h3 {

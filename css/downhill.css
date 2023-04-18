@@ -247,21 +247,15 @@ ul li a:hover {
     color: #FFFFFF;
 }
 
-#box-txt2 {
-    gap: 20px;
-}
-
 #box-txt2 h1 {
     width: 825px;
     height: 70px;
     font-family: 'Clinton';
-    font-weight: 700;
     font-size: 30px;
     line-height: 40px;
     display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 1px;
+    padding-bottom: 20px;
 
     color: #FFFFFF;
 }
@@ -323,6 +317,11 @@ ul li a:hover {
 
 #iframes iframe {
     border-radius: 15px;
+}
+
+iframe:hover{
+    transition: 0.2s;
+    transform: scale(1.05);
 }
 
 /* COMO É A PROVA DE DH */
