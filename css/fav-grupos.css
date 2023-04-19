@@ -228,8 +228,11 @@ ul li a:hover {
     border-radius: 10px;
 }
 
-.container-profile article {
-    position: absolute;
+#profile-img {
+    background: url(/img/profile.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
     width: 180px;
     height: 180px;
     left: 177px;
@@ -237,16 +240,13 @@ ul li a:hover {
     border-radius: 100px;
 }
 
-#profile-img {
-    background: url(/img/profile.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
 .container-profile h2 {
-    position: absolute;
-    left: 170px;
-    top: 313px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
 
     font-weight: 700;
     font-size: 20px;
@@ -257,25 +257,37 @@ ul li a:hover {
 }
 
 .container-profile h4 {
-    position: absolute;
-    left: 150px;
-    top: 349px;
+    position: relative;
+    display: flex;
+    top: 90px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
     letter-spacing: 1px;
 
-    /* neutral */
     color: rgba(174, 150, 150, 0.72);
 }
 
 #config {
+    position: relative;
     display: flex;
-    top: 400px;
+    top: 130px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+#config a{
+    text-decoration: none;
+}
+
+#config a:hover{
+    opacity: 0.6;
+    transition: 0.2s;
 }
 
 .container-profile span {

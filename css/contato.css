@@ -327,9 +327,7 @@ article h3 {
     color: #C1A0A0;
 }
 
-
-
-form button {
+#btn-enviar {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -344,7 +342,7 @@ form button {
     border-radius: 10px;
 }
 
-form button {
+#btn-enviar{
     font-weight: 700;
     font-size: 20px;
     line-height: 15px;
@@ -357,13 +355,9 @@ form button {
     color: #FFFFFF;
 }
 
-form button:hover {
+#btn-enviar:hover {
     opacity: 0.6;
     transition: 0.2s;
-}
-
-form a {
-    text-decoration: none;
 }
 
 /* FOOTER */

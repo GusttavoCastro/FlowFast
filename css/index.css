@@ -209,53 +209,77 @@ ul li a:hover {
     letter-spacing: 1px;
 }
 
+/* MAIN */
 .img-banner {
     position: absolute;
+    display: flex;
     top: 240px;
-    width: 100%;
-    height: 860px;
-    cursor: pointer;
+    height: 855px;
+    width: 1500px;
 }
 
-#coluna2 {
-    position: relative;
-    right: 235px;
+#foto1 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#coluna3 {
-    position: relative;
-    left: 634px;
-    bottom: 854px;
+#comentario {
+    position: absolute;
+    font-family: 'clinton';
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    opacity: 0;
+
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+
 }
 
-#coluna4 {
-   position: relative;
-   left: 397px;
-   bottom: 855px;
+#foto1:hover #comentario {
+    opacity: 1;
 }
 
-#coluna1:hover{
-   transform: scale(1.0);
-   opacity: 0.6;
-   transition: 0.2s;
+#foto2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 240px;
 }
 
-#coluna2:hover{
-   transform: scale(1.0);
-   opacity: 0.6;
-   transition: 0.2s;
+
+#foto2:hover #comentario {
+    opacity: 1;
 }
 
-#coluna3:hover{
-   transform: scale(1.0);
-   opacity: 0.6;
-   transition: 0.2s;
+#foto3 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 250px;
 }
 
-#coluna4:hover{
-   transform: scale(1.0);
-   opacity: 0.6;
-   transition: 0.2s;
+#foto3:hover #comentario {
+    opacity: 1;
+}
+
+#foto4 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+}
+
+#foto4:hover #comentario {
+    opacity: 1;
 }
 
 /* CARDS DESTAQUES */
